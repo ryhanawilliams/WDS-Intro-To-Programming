@@ -1,0 +1,136 @@
+body {
+    background-color: #fce6df;
+    background-image: url(images/background.jpg);
+    background-size: repeat;
+    background-blend-mode: multiply;
+    
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #5a3d2b;
+}
+
+h2 {
+    color: #3d2817;
+}
+
+header {
+    background-color: #3d2817;
+    color: #fce6df;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #5a3d2b;
+    padding: 20px;  /* adds space around the nav bar (20px top and bottom, 0px left and right) */
+    text-align: center;
+}
+
+nav a {
+    color: #fce6df;
+    text-decoration: none;  /* removes the underline from the links */
+    margin: 0 30px;  /* adds space between the links */
+    transition: color 0.2s;  /* slowly changes color of the links when hovered over */
+}
+nav a:hover {
+    color: #d4a574;
+}
+
+main {
+    max-width: 1200px; 
+    margin: auto;  /* auto = centers the content */
+    padding: 40px;
+}
+
+.hero {  /* .hero = personalized class name */
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.9); /* a = alpha (opacity) = 0.9 (90% opacity) */
+    border-radius: 10px; /* rounded corners */
+    margin-bottom: 40px; /* adds space below the hero section */
+}
+
+.hero h1 { /* only the h2 part of hero section */
+    color: #3d2817;
+}
+
+.hero p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #3d2817;
+    color: #fce6df;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.Wbutton:hover {
+    background-color: #5a3d2b;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+    margin-bottom: 10px;
+}
+
+.hours {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hours h2 {
+    margin-bottom: 20px;
+}
+
+.hours p {
+    margin: 10px 0;
+}
+
+.hours a {
+    color: #3d2817;
+    text-decoration: underline;
+    transition: color 0.2s;
+}
+
+.hours a:hover {
+    color: #5a3d2b;
+}
+
+footer {
+    background-color: #3d2817;
+    color: #fce6df;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
